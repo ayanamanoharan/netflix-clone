@@ -1,0 +1,40 @@
+.banner {
+  height: 85vh;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgdark {
+  height: 85vh;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.9)
+  );
+}
+.left {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  /* align-items:center; */
+  justify-content: end;
+  margin-left: 30px;
+}
+.left h1 {
+  color: whitesmoke;
+  font-size: 2em;
+}
+.para {
+  color: whitesmoke;
+  font-size: 1em;
+}
+.btns {
+  display: flex;
+}
+.btn {
+  width: 130px;
+  height: 40px;
+  font-size: 1em;
+  margin-left: 20px;
+}

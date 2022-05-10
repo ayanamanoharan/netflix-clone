@@ -1,0 +1,9 @@
+.Cardlist {
+  display: flex;
+  justify-content: center;
+
+  overflow-x: scroll;
+}
+.slider h1 {
+  color: white;
+}

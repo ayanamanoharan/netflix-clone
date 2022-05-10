@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  align-items: flex-end;
+  min-width: 222px;
+  min-height: 150px;
+
+  border-radius: 4%;
+  border: 1px solid white;
+  background-image: url("https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2020/03/18074959/72354623_743029929493734_4704406170316788179_n-1024x912.jpg");
+  background-size: cover;
+}
+.card:hover {
+  transform: scale(1.5);
+}
+
+.card h1 {
+  font-size: 1em;
+  color: white;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.6)
+  );
+}
+.date {
+  font-size: 1em;
+}
+img {
+  width: 222px;
+  height: 150px;
+}
